@@ -48,7 +48,6 @@ export default function Home() {
   const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
   async function burnIt() {
-    <Prompt message="Are you sure you want to burn your wallet?" />;
   }
 
   const switchNetwork = async () => {
